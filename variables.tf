@@ -17,7 +17,7 @@ variable "rotation_lambda_arn" {
 variable "rotation_days" {
   default     = 30
   description = "Specifies the number of days between automatic scheduled rotations of the secret."
-  type        = string
+  type        = number
 }
 
 variable "tags" {
